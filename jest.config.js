@@ -1,5 +1,3 @@
-const commonConfig = require('./jest.common.config')
-
 module.exports = {
   moduleFileExtensions: [
     'ts',
