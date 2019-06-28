@@ -60,7 +60,7 @@ jobs:
       - run:
           name: Run tests
           command: |
-            jest --testResultsProcessor="jest-junit"
+            npx jest --testResultsProcessor="jest-junit"
           environment:
             JEST_JUNIT_OUTPUT: "reports/junit/test-results.xml"
       - run:
