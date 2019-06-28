@@ -1,0 +1,3 @@
+{
+  "src/**/*.{js,jsx,ts,tsx}": ["prettier-standard", "npm run lint", "git add"]
+}

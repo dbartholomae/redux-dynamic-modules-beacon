@@ -1,0 +1,76 @@
+{
+  "name": "redux-dynamic-modules-beacon",
+  "version": "0.0.0",
+  "description": "redux-beacon integration for redux dynamic modules.",
+  "homepage": "https://github.com/dbartholomae/redux-dynamic-modules-beacon",
+  "author": {
+    "name": "Daniel Bartholomae",
+    "email": "daniel@bartholomae.name",
+    "url": "https://github.com/dbartholomae"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "Redux",
+    "Beacon",
+    "Redux Beacon",
+    "Redux Dynamic Modules",
+    "Modules"
+  ],
+  "types": "lib/index.d.ts",
+  "engines": {
+    "npm": ">= 4.0.0"
+  },
+  "private": false,
+  "directories": {
+    "docs": "docs",
+    "example": "examples"
+  },
+  "scripts": {
+    "build": "rimraf ./lib && tsc --project tsconfig.build.json",
+    "docs": "typedoc",
+    "release": "semantic-release",
+    "pretest": "npm run build",
+    "test": "npm run lint && jest && pkg-ok",
+    "lint": "tslint --project tsconfig.json",
+    "lint:fix": "tslint --project tsconfig.json --fix",
+    "precommit:lint:fix": "tslint --project tsconfig.json --fix"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^7.2.0",
+    "@commitlint/config-conventional": "^7.1.2",
+    "@semantic-release/changelog": "^3.0.2",
+    "@semantic-release/commit-analyzer": "^6.1.0",
+    "@semantic-release/git": "^7.0.8",
+    "@semantic-release/npm": "^5.1.4",
+    "@semantic-release/release-notes-generator": "^7.1.4",
+    "@types/jest": "^23.3.9",
+    "codecov": "^3.2.0",
+    "cross-env": "^5.2.0",
+    "husky": "^1.1.4",
+    "jest": "^24.8.0",
+    "jest-junit": "^6.3.0",
+    "lint-staged": "^8.0.5",
+    "pkg-ok": "^2.3.1",
+    "prettier-standard": "^8.0.1",
+    "redux": "^4.0.1",
+    "redux-beacon": "^2.1.0",
+    "redux-dynamic-modules": "^4.0.1",
+    "rimraf": "^2.6.2",
+    "semantic-release": "^15.10.3",
+    "ts-jest": "^24.0.2",
+    "ts-loader": "^5.3.3",
+    "tslint": "^5.7.0",
+    "tslint-config-standard": "^8.0.1",
+    "typedoc": "^0.14.2",
+    "typescript": "^3.1.2"
+  },
+  "peesDependencies": {
+    "redux-beacon": "^2.0.0",
+    "redux-dynamic-modules": ">=0.0.16"
+  },
+  "license": "MIT",
+  "repository": "git@github.com:dbartholomae/redux-dynamic-modules-beacon.git"
+}
