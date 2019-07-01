@@ -47,6 +47,7 @@
     "@semantic-release/npm": "^5.1.4",
     "@semantic-release/release-notes-generator": "^7.1.4",
     "@types/jest": "^23.3.9",
+    "@types/react": "^16.8.22",
     "codecov": "^3.2.0",
     "cross-env": "^5.2.0",
     "husky": "^1.1.4",
@@ -55,6 +56,9 @@
     "lint-staged": "^8.0.5",
     "pkg-ok": "^2.3.1",
     "prettier-standard": "^8.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
     "redux": "^4.0.1",
     "redux-beacon": "^2.1.0",
     "redux-dynamic-modules": "^4.0.1",
@@ -72,5 +76,8 @@
     "redux-dynamic-modules": ">=0.0.16"
   },
   "license": "MIT",
-  "repository": "git@github.com:dbartholomae/redux-dynamic-modules-beacon.git"
+  "repository": "git@github.com:dbartholomae/redux-dynamic-modules-beacon.git",
+  "dependencies": {
+    "array-flatten": "^2.1.2"
+  }
 }
