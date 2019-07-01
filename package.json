@@ -1,6 +1,6 @@
 {
   "name": "redux-dynamic-modules-beacon",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "redux-beacon integration for redux dynamic modules.",
   "homepage": "https://github.com/dbartholomae/redux-dynamic-modules-beacon",
   "author": {
