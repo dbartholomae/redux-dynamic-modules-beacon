@@ -62,7 +62,7 @@
     "redux": "^4.0.1",
     "redux-beacon": "^2.1.0",
     "redux-dynamic-modules": "^4.0.1",
-    "rimraf": "^2.6.2",
+    "rimraf": "^3.0.0",
     "semantic-release": "^15.10.3",
     "ts-jest": "^24.0.2",
     "ts-loader": "^6.0.4",
