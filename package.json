@@ -78,6 +78,6 @@
   "license": "MIT",
   "repository": "git@github.com:dbartholomae/redux-dynamic-modules-beacon.git",
   "dependencies": {
-    "array-flatten": "^2.1.2"
+    "array-flatten": "^3.0.0"
   }
 }
