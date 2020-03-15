@@ -68,7 +68,7 @@
     "ts-loader": "^6.0.4",
     "tslint": "^5.7.0",
     "tslint-config-standard": "^9.0.0",
-    "typedoc": "^0.15.0",
+    "typedoc": "^0.17.0",
     "typescript": "^3.1.2"
   },
   "peesDependencies": {
