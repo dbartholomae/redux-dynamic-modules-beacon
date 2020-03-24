@@ -61,7 +61,7 @@
     "react-redux": "^7.1.0",
     "redux": "^4.0.1",
     "redux-beacon": "^2.1.0",
-    "redux-dynamic-modules": "^4.0.1",
+    "redux-dynamic-modules": "^5.2.3",
     "rimraf": "^3.0.0",
     "semantic-release": "^15.10.3",
     "ts-jest": "^25.1.0",
