@@ -36,7 +36,9 @@
     "test": "npm run lint && jest && pkg-ok",
     "lint": "tslint --project tsconfig.json",
     "lint:fix": "tslint --project tsconfig.json --fix",
-    "precommit:lint:fix": "tslint --project tsconfig.json --fix"
+    "precommit:lint:fix": "tslint --project tsconfig.json --fix",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.0.0",
@@ -78,6 +80,8 @@
   "license": "MIT",
   "repository": "git@github.com:dbartholomae/redux-dynamic-modules-beacon.git",
   "dependencies": {
-    "array-flatten": "^2.1.2"
-  }
+    "array-flatten": "^2.1.2",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
