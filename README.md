@@ -11,3 +11,18 @@ npm install redux-dynamic-modules-beacon --save
 ```
 
 ## Usage
+
+```ts
+import { createStore, IModuleStore } from "redux-dynamic-modules";
+import GoogleAnalytics from '@redux-beacon/google-analytics';
+import { UsersModule } from "./usersModule";
+
+const store: IModuleStore<IState> = createStore(
+    {
+        initialState: {},
+        extensions: [getBeaconExtension(GoogleAnalytics())],
+    },
+    UsersModule
+);
+
+```
